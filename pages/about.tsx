@@ -50,9 +50,9 @@ export default function About() {
                               animate-gradient"
               ></div>
               <div className="relative px-6 py-8 bg-white rounded-xl leading-none">
-                <h1 className="text-3xl font-extrabold text-green-800 mb-4">
+                <h2 className="text-3xl font-extrabold text-green-800 mb-4">
                   Our Vision
-                </h1>
+                </h2>
                 <p className="text-gray-700">
                   To be a leading provider of accessible mental health care in
                   the UK, creating a society where mental wellness is
@@ -70,9 +70,9 @@ export default function About() {
                               animate-gradient"
               ></div>
               <div className="relative px-6 py-8 bg-white rounded-xl leading-none">
-                <h1 className="text-3xl font-extrabold text-green-800 mb-4">
+                <h2 className="text-3xl font-extrabold text-green-800 mb-4">
                   Our Mission
-                </h1>
+                </h2>
                 <p className="text-gray-700">
                   To deliver high-quality, personalised mental health services
                   that empower individuals on their journey to emotional
@@ -96,9 +96,9 @@ export default function About() {
                             animate-gradient"
             ></div>
             <div className="relative px-8 py-10 bg-white rounded-xl text-center leading-none">
-              <h1 className="text-3xl font-extrabold text-green-800 mb-6">
-                Our Policy
-              </h1>
+              <h2 className="text-3xl font-extrabold text-green-800 mb-6">
+                Our Standards
+              </h2>
               <div className="space-y-4 text-gray-700">
                 <p>
                   We maintain the highest standards of confidentiality and

@@ -38,7 +38,7 @@ export default function Login() {
                       animate-gradient"></div>
         
         <div className="relative px-8 py-10 bg-white rounded-xl">
-          <h2 className="text-2xl font-bold text-green-800 mb-6 text-center">Admin Login</h2>
+          <h1 className="text-2xl font-bold text-green-800 mb-6 text-center">Admin Login</h1>
           
           {error && (
             <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-lg">
