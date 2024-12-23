@@ -73,6 +73,7 @@ export default function AdminDashboard() {
     
     const filtered = bookings.filter((booking: any) => 
       booking.name.toLowerCase().includes(searchTerm) ||
+      booking.bookingId.toLowerCase().includes(searchTerm) ||
       booking.email.toLowerCase().includes(searchTerm)
     );
     setFilteredBookings(filtered);
@@ -108,7 +109,7 @@ export default function AdminDashboard() {
       <div className="mb-4">
         <input
           type="text"
-          placeholder="Search by name or email..."
+          placeholder="Search by booking ID, name or email..."
           value={searchTerm}
           onChange={handleSearch}
           className="w-full md:w-1/3 px-4 py-2 border border-gray-300 rounded-lg 
