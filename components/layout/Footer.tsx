@@ -7,7 +7,10 @@ const Footer = () => {
             <a
             href="/"
             >
-            <img className="w-12" src="logo.svg"/>
+            <img className="w-12"
+              src="logo.svg"
+              alt="Your Safe Mind Logo"
+              />
             </a>
             <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right grid-flow-col">
               Copyright © {new Date().getFullYear()} - All right reserved
@@ -42,41 +45,6 @@ const Footer = () => {
               </a>
               </div>
           </div>
-
-
-          {/* <div>
-            <ul className=" flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
-              <li>
-                <a
-                  className="text-gray-700 transition hover:text-greev-700/75"
-                  href="coming-soon"
-                >
-                  {" "}
-                  About Us
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-gray-700 transition hover:text-green-700/75"
-                  href="coming-soon"
-                >
-                  {" "}
-                  Contact Us{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-gray-700 transition hover:text-green-700/75"
-                  href="coming-soon"
-                >
-                  {" "}
-                  Privacy policy{" "}
-                </a>
-              </li>
-            </ul>
-          </div> */}
         </div>
       </div>
     </footer>
