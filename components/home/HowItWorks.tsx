@@ -25,7 +25,7 @@ const HowItWorks = () => {
               <img
                 className="w-full object-cover rounded-xl"
                 src="session.jpg"
-                alt="Therapy Session Image"
+                alt="Your Safe Mind Therapy Session"
               />
             </div>
             {/* End Col */}
