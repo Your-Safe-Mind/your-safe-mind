@@ -92,12 +92,12 @@ interface ImageComparisonSliderProps {
         <div className="m-12 p-6 rounded-lg bg-black/30 backdrop-blur-xs select-none">
           <span className="text-white text-xl font-semibold select-none">
           <div className="text-primary-content text-center grid place-content-center">
-          <h1 className="text-3xl font-extrabold text-white">
+          <h2 className="text-3xl font-extrabold text-white">
           Find Your Inner Strength
-          </h1>
+          </h2>
           <div className="text-center max-w-3xl">
           <p className="py-6 text-lg text-white">
-            At Your Safe Mind, we provide compassionate therapy. <br/>Our
+            At <h1>Your Safe Mind</h1>, we provide compassionate therapy. <br/>Our
             experienced therapists create a supportive, <br/>judgment-free space for
             healing and personal growth. <br/>Take the first step towards a
             healthier, happier you.
@@ -133,9 +133,9 @@ Book a Session Today</button>
         <div className="px-6 py-3 rounded-lg bg-black/30 backdrop-blur-sm select-none">
           <span className="text-white text-xl font-semibold select-none">
           <div className="text-primary-content text-center grid place-content-center">
-          <h1 className="text-3xl font-extrabold text-white">
+          <h2 className="text-3xl font-extrabold text-white">
           Feeling Overwhelmed <br/>By Life's Challenges?
-          </h1>
+          </h2>
           <div className="text-center max-w-3xl text-body p-6">
       <p className="text-lg pt-3 text-white ">Seeking professional guidance </p>
       <p className="text-lg text-white ">during difficult times?</p>

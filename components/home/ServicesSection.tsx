@@ -25,7 +25,7 @@ const ServicesSection = () => {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-green-600">Our Services</h1>
+          <h2 className="text-4xl font-bold text-green-600">Our Services</h2>
           <p className="mt-4 text-xl text-gray-600">
             Comprehensive mental health support tailored to your needs
           </p>

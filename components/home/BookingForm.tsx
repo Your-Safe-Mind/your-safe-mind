@@ -120,9 +120,9 @@ const BookingForm = () => {
       {/* Main container */}
       <div className="relative px-7 py-6 bg-white rounded-xl leading-none">
       <div className="text-center py-3 pb-6">
-      <h1 className="text-3xl font-bold text-green-600 sm:text-4xl dark:text-white">
+      <h2 className="text-3xl font-bold text-green-600 sm:text-4xl dark:text-white">
         Book Your Journey to Well-being
-      </h1>
+      </h2>
       <p className="mt-1 py-3 px-6 text-xl text-gray-600 dark:text-neutral-400">
         Take the first step towards positive change. We'll match you with
         the right professional to support your unique needs.
