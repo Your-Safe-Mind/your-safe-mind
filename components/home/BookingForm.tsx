@@ -1,4 +1,4 @@
-import { generateBookingId } from '@/utils/helperFunctions';
+import { generateBookingId, Toast } from '@/utils/helperFunctions';
 import { useState, FormEvent } from 'react';
 
 const BookingForm = () => {
@@ -29,12 +29,20 @@ const BookingForm = () => {
       });
       const data = await response.json();
       if (data.success) {
-        alert("Booking Complete");
+        Toast.fire(
+          {
+              title: 'Booking Complete',
+              icon: 'success',
+              text: "We'll contact you soon!",
+              showCloseButton: false,
+              showConfirmButton: false
+          }
+      )
       } else {
         throw new Error(data.error);
       }
     } catch (error) {
-      alert("Booking error: " + error);
+      console.log("Booking error: ", error);
     } finally {
     }
   };
