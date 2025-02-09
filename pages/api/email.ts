@@ -127,7 +127,7 @@ export default async function handler(
   const emailClient = new SMTPClient({
     user: process.env.SMTP_USER,
     password: process.env.SMTP_PASSWORD,
-    host: "smtp.gmail.com",
+    host: "mail.privateemail.com",
     ssl: true,
     port: 465,
     timeout: 10000,
